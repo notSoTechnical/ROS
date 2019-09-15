@@ -20,4 +20,4 @@ Troubleshooting tips:
 
 **If you see this error: The above command works… The below command solve ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
 
-Add sudo in front of every command 
+=> Add **sudo** in front of every command 
