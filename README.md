@@ -12,4 +12,8 @@ login: viki <br>
 password: viki
 
 
+Another option: https://ubuntu.com/download/desktop
+
+Ubuntu version 18.04.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. 
+
 
