@@ -14,6 +14,10 @@ password: viki
 
 Another option: https://ubuntu.com/download/desktop
 
-Ubuntu version 18.04.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. 
+Install Ubuntu version 18.04 to your VM.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. 
 
+Troubleshooting tips: 
 
+**If you see this error: The above command works… The below command solve ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
+
+Add sudo in front of every command 
