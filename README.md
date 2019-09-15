@@ -21,6 +21,6 @@ Install Ubuntu version 18.04 to your VM.  Make sure to change 10GB to 25GB durin
 
 Troubleshooting tips: 
 
-**If you see this error: The above command works… The below command solve ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
+**If you see this error: ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
 
 => Add **sudo** in front of every command 
