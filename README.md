@@ -24,7 +24,7 @@ Troubleshooting tips:
 **Note: Make sure no whitespace** <br>
 Ex: <br>
 Do       => echo $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share <br>
-Don't do => echo
+Don't do => echo <br>
 $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 **If you see this error: ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
