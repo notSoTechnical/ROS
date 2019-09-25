@@ -33,4 +33,4 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 **E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?**
 
-=> Sudo sudo apt --fix-broken install
+=> sudo apt --fix-broken install
