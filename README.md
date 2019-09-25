@@ -24,3 +24,7 @@ Troubleshooting tips:
 **If you see this error: ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
 
 => Add **sudo** in front of every command 
+
+**E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?**
+
+=> Sudo sudo apt --fix-broken install
