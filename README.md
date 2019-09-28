@@ -19,7 +19,13 @@ Another option: https://ubuntu.com/download/desktop
 
 Install Ubuntu version 18.04 to your VM.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. Use software https://www.omnigroup.com/more
 
-Troubleshooting tips: 
+<br>
+<br>
+
+
+
+
+**Troubleshooting tips:** 
 
 **Note: Make sure no whitespace** <br>
 Ex: <br>
@@ -27,21 +33,20 @@ Do       => echo $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/ki
 Don't do => echo <br>
 $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
-**If you see this error: ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
+**ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?**
 
 => Add **sudo** in front of every command 
 
 **E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?**
 
-=> sudo apt --fix-broken install
+=>$ sudo apt --fix-broken install
 
 **Usage: rosrun [--prefix cmd] [--debug] PACKAGE EXECUTABLE [ARGS]
   rosrun will locate PACKAGE and try to find
   an executable named EXECUTABLE in the PACKAGE tree.
   If it finds it, it will run it with ARGS.**
 
-=> How to solve this?  Cd /home/viki/catkin_ws/src
-Enter this: **. ~/catkin_ws/devel/setup.bash** 
+=>$ . ~/catkin_ws/devel/setup.bash 
 
 **To test publisher & Subscriber, do the following before running the programs:**
 
