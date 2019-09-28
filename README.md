@@ -35,6 +35,14 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 => sudo apt --fix-broken install
 
+**Usage: rosrun [--prefix cmd] [--debug] PACKAGE EXECUTABLE [ARGS]
+  rosrun will locate PACKAGE and try to find
+  an executable named EXECUTABLE in the PACKAGE tree.
+  If it finds it, it will run it with ARGS.**
+
+=> How to solve this?  Cd /home/viki/catkin_ws/src
+Enter this: **. ~/catkin_ws/devel/setup.bash** 
+
 **To test publisher & Subscriber, do the following before running the programs:**
 
 $ . ~/catkin_ws/devel/setup.bash <br>
