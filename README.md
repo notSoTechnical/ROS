@@ -48,7 +48,7 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 =>$ . ~/catkin_ws/devel/setup.bash 
 
-**To test publisher & Subscriber, do the following before running the programs or you would most likely getting some errors:**
+**To test publisher & Subscriber, do the following before running the programs or you would most likely getting errors:**
 
 $ . ~/catkin_ws/devel/setup.bash <br>
 $ roscore <br>
