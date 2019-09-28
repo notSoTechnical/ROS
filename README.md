@@ -37,6 +37,4 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 **To test publisher & Subscriber, do the following before running the programs:**
 
-viki@c3po:~/catkin_ws/src$ . ~/catkin_ws/devel/setup.bash
-viki@c3po:~/catkin_ws/src$ roscore
-viki@c3po:~/catkin_ws/src$ rosrun repo_anniyang_hw2 talker.py
+
