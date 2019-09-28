@@ -54,3 +54,5 @@ $ . ~/catkin_ws/devel/setup.bash <br>
 $ roscore <br>
 $ rosrun packagename publisher.py
 
+=> Control+c to terminate the loop
+
