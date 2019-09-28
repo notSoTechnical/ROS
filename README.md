@@ -37,4 +37,7 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 
 **To test publisher & Subscriber, do the following before running the programs:**
 
+$ . ~/catkin_ws/devel/setup.bash <br>
+$ roscore <br>
+$ rosrun packagename publisher.py
 
