@@ -34,3 +34,8 @@ $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share
 **E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?**
 
 => sudo apt --fix-broken install
+
+**To test publisher & Subscriber, do the following before running the programs: **
+viki@c3po:~/catkin_ws/src$ . ~/catkin_ws/devel/setup.bash <br>
+viki@c3po:~/catkin_ws/src$ roscore <br>
+viki@c3po:~/catkin_ws/src$ rosrun repo_anniyang_hw2 talker.py
