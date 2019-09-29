@@ -2,7 +2,7 @@
 
 For Mac users, VM is the best option for now.  Download the software from the following link (The 64 bits Indigo): 
 
-**https://wiki.epfl.ch/roscontrol/rosinstall**
+**https://wiki.epfl.ch/roscontrol/rosinstall** <br>
 Indigo: https://nootrix.com/downloads/#RosVM
 
 or 
