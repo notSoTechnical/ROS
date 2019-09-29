@@ -38,7 +38,7 @@
 
 import rospy
 import random 
-from repo_anniyang_hw2.msg import Num
+from repo_notSoTechnical_hw2.msg import Num
 
 def talker():
     pub = rospy.Publisher('/obstacles_detected', Num, queue_size=10)
