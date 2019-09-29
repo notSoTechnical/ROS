@@ -18,7 +18,10 @@ password: viki
 
 Another option: https://ubuntu.com/download/desktop
 
-Install Ubuntu version 18.04 to your VM.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. Use software https://www.omnigroup.com/more
+Install Ubuntu version 18.04 to your VM.  Make sure to change 10GB to 25GB during setup.  You would mostly likely run into space issues. Also, delete large files from your computer if needed. Use software https://www.omnigroup.com/more <br>
+<br>
+Install Melodic or Kinetic on Ubuntu 18.04
+http://wiki.ros.org/melodic/Installation/Ubuntu
 
 <br>
 <br>
