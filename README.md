@@ -1,6 +1,6 @@
 # ROS (Robot Operating System)
 
-For Mac users, VM is the best option for now.  Download the software from the following link (The 64 bits VM): 
+For Mac users, VM is the best option for now.  Download the software from the following link (The 64 bits Indigo): 
 
 **https://wiki.epfl.ch/roscontrol/rosinstall**
 
