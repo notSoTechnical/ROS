@@ -61,7 +61,7 @@ $ rosrun packagename publisher.py
 
 ----------------------------------------------------------------
 
-**Make your Duckiebot Move Tips: BE PATIENT**
+**Make your Duckiebot Move Tips: Be VERY patient**
 1. close the Portainer Interface (containers) when it's not moving again or refresh the page;
 2. reconnect with the docker token;
 3. Keep entering **$ ping yourrobotname.local** until it prints time in the terminal;
