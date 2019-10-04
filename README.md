@@ -63,7 +63,7 @@ $ rosrun packagename publisher.py
 
 **Make your Duckiebot Move Tips: Be VERY patient**
 1. close the Portainer Interface (containers) when it's not moving again or refresh the page;
-2. reconnect with the docker token;
+2. reconnect with the docker token: https://docs.duckietown.org/DT19/opmanual_duckiebot/out/dt_account.html
 3. Keep entering **$ ping yourrobotname.local** until it prints time in the terminal;
 4. Turn off the demo and turn it back on in the contanier; run the demo code in the terminal;
 5. Keep pressing/testing/waiting until the command is processed.  Be patient and the robot will move eventually! 
