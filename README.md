@@ -64,7 +64,7 @@ $ rosrun packagename publisher.py
 => Control+c to terminate the loop
 
 --------------------------------------------------------------------------------------------------------------
-**SD Card initialization**
+**SD Card Initialization**
 
 The whole process takes 3 hours approximately.  Wait until only the **green** light is on in the Respberry Pi.  
 
@@ -75,3 +75,9 @@ The whole process takes 3 hours approximately.  Wait until only the **green** li
 3. Keep entering **$ ping yourrobotname.local** until it prints time in the terminal;
 4. Turn off the demo and turn it back on in the contanier; run the demo code in the terminal;
 5. Keep pressing/testing/waiting until the command is processed.  Be patient and the robot will move eventually! 
+
+--------------------------------------------------------------------------------------------------------------
+**Camera Calibration**
+DO NOT rentering the command below if it fails for the first time.  You would mostly likely get **ERROR:dts:Theduckiebot-interfaceisnotrunningontheduckiebot**.  The currenly solution for this... reinitialize your SD card :(
+
+Don't enter this line unless you love troubleshooting => $ dts duckiebot calibrate_extrinsics DUCKIEBOT_NAME
