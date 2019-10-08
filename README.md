@@ -63,8 +63,12 @@ $ rosrun packagename publisher.py
 
 => Control+c to terminate the loop
 
-----------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+**SD Card initialization**
 
+The whole process takes 3 hours approximately.  Wait until only **green** light is on in the Respberry PI.  
+
+--------------------------------------------------------------------------------------------------------------
 **Make your Duckiebot Move Tips: Be VERY patient**
 1. close the Portainer Interface (containers) when it's not moving again or refresh the page;
 2. reconnect with the docker token: https://docs.duckietown.org/DT19/opmanual_duckiebot/out/dt_account.html
