@@ -78,6 +78,7 @@ The whole process takes 3 hours approximately.  Wait until only the **green** li
 
 --------------------------------------------------------------------------------------------------------------
 **Camera Calibration**
+
 DO NOT rentering the command below if it fails for the first time.  You would mostly likely get **ERROR:dts:Theduckiebot-interfaceisnotrunningontheduckiebot**.  The currenly solution for this... reinitialize your SD card :(
 
 Don't enter this line unless you love troubleshooting => $ dts duckiebot calibrate_extrinsics DUCKIEBOT_NAME
