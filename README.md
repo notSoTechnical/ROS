@@ -66,7 +66,7 @@ $ rosrun packagename publisher.py
 --------------------------------------------------------------------------------------------------------------
 **SD Card initialization**
 
-The whole process takes 3 hours approximately.  Wait until only **green** light is on in the Respberry Pi.  
+The whole process takes 3 hours approximately.  Wait until only the **green** light is on in the Respberry Pi.  
 
 --------------------------------------------------------------------------------------------------------------
 **Make your Duckiebot Move Tips: Be VERY patient**
