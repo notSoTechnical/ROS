@@ -79,8 +79,6 @@ The whole process takes 3 hours approximately.  Wait until only the **green** li
 --------------------------------------------------------------------------------------------------------------
 **Camera Calibration**
 
-DO NOT rentering the command below if it fails for the first time.  You would mostly likely get **ERROR:dts:Theduckiebot-interface is not running on the duckiebot**.  The currenly solution for this error is ... reinitialize your SD card :(
+**ERROR:dts:Theduckiebot-interface is not running on the duckiebot**.  
 
-**Don't enter** this line over and over again => $ dts duckiebot calibrate_extrinsics DUCKIEBOT_NAME
-
-Update: Restart the roscore in the container can solve the problem 
+=> Restart the roscore in the container can solve the problem 
