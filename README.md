@@ -30,6 +30,11 @@ Another option: https://ubuntu.com/download/desktop
 
 **Troubleshooting tips:** 
 
+dts works when the computer is restarted 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 ERROR: Unable to communicate with master!
 
 http://wiki.ros.org/rosnode/Troubleshooting
