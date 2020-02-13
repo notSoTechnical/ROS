@@ -39,6 +39,9 @@ ERROR: Unable to communicate with master!
 
 http://wiki.ros.org/rosnode/Troubleshooting
 
+Or <br>
+Delete the previous host and replace it with the current host by tying => **gedit ~/.ssh/config** <br>
+
 **Note: Make sure no whitespace** <br>
 Ex: <br>
 Do       => echo $ROS_PACKAGE_PATH/home/notsotechnical/catkin_ws/src:/opt/ros/kinetic/share <br>
